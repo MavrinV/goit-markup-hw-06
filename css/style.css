@@ -427,6 +427,13 @@ body {
   padding-bottom: 96px;
 }
 
+@media screen and (min-width: 1158px){
+  .second-section {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -521,7 +528,6 @@ body {
     flex-wrap: nowrap;
     gap: 24px;
     margin-left: 156;
-    margin-bottom: 120px;
   }
   .text {
     line-height: 1.5;
